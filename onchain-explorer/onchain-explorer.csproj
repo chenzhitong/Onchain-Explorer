@@ -65,9 +65,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-simplify.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\template.css" />
+    <Content Include="Images\bg.png" />
+    <Content Include="Images\icon%286%29.png" />
+    <Content Include="Images\onchain-logo-gray.svg" />
+    <Content Include="Images\onchain-logo.svg" />
+    <Content Include="Images\onchain-white.svg" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <None Include="Properties\PublishProfiles\onchain-explorer - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\onchain-explorer - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -80,8 +90,6 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\iconfinder.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\icon%281%29.svg" />
     <Content Include="Images\icon%282%29.svg" />
     <Content Include="Images\icon%283%29.svg" />
@@ -91,10 +99,6 @@
     <Content Include="Images\logo_black.svg" />
     <Content Include="Images\logo_white_small.svg" />
     <Content Include="index.htm" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
@@ -106,6 +110,7 @@
     <Content Include="Scripts\jquery-3.1.1.min.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\template.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
