@@ -23,6 +23,9 @@ i { font-family:iconfont; font-style:normal }
 .my-table .empty { display:none; line-height:3; text-align:center }
 
 h1 { letter-spacing:.3em }
+.lsgy{color:#333; margin-bottom:50px; letter-spacing:.3em}
+.lsgy h1{font-size:48px}
+.lsgy h3{font-size:24px; margin-top:36px}
 .system-state { background-color:#505050; background-image:url(../Images/bg.png); background-size:cover; background-position:center; background-attachment:fixed; padding:50px 0 }
 .system-state h1 { color:#fff; text-align:center; line-height:20px; font-size:24px }
 .system-state h3 { color:#59c2e6; }

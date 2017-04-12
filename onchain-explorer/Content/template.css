@@ -1,3 +1,5 @@
+/* 主色调#59c2e6 鼠标悬停#009bc8 */
+
 @font-face {
 	font-family: halterregular;
 	src: url(https://cdn2.iconfinder.com/static/f4d5e6a01be776bd9c6122c926570822/assets/fonts/halter.eot?#iefix) format("embedded-opentype"), url(https://cdn0.iconfinder.com/static/43b49c31ebe7f3702fcf0bbac88546e0/assets/fonts/halter.woff) format("woff"), url(https://cdn0.iconfinder.com/static/8f0a01fe29b5c1c8e9d7b33df011fe32/assets/fonts/halter.ttf) format("truetype");
@@ -62,7 +64,7 @@ textarea { overflow: auto; vertical-align: top; }
 body { margin: 0px; color: rgb(46, 46, 46); line-height: 22px; font-size: 14px; background-color: rgb(255, 255, 255); }
 body { font-family: "PingFangSC-Regular","PingHei","Lucida Grande","Lucida Sans Unicode","STHeitiSC-Light",Helvetica,"BBAlpha Sans","S60 Sans","Hiragino Sans GB",Arial,"Microsoft YaHei","Verdana",SimHei,STXihei,SimSun,"WenQuanYi Micro Hei",sans-serif; }
 a { color: #59c2e6; text-decoration: none; }
-a:hover { color: rgb(26, 115, 71); text-decoration: underline; }
+a:hover { color: #009bc8; text-decoration: underline; }
 .row { margin-left: -18px; }
 .row::before { display: table; content: ""; }
 .row::after { display: table; content: ""; }
@@ -341,10 +343,10 @@ table tr.info:hover td { background-color: rgb(252, 254, 254); }
 table tr:nth-child(2n+1).info:hover td { background-color: rgb(255, 255, 255); }
 table tr:nth-child(2n+1).info:hover td { background-color: rgb(255, 255, 255); }
 table tr.info a { color: rgb(58, 135, 173); }
-table.success td { border-color: rgb(203, 244, 224); color: rgb(26, 115, 71); background-color: rgb(203, 244, 224); }
-table tr.success td { border-color: rgb(203, 244, 224); color: rgb(26, 115, 71); background-color: rgb(203, 244, 224); }
-table.success td a { color: rgb(26, 115, 71); }
-table tr.success td a { color: rgb(26, 115, 71); }
+table.success td { border-color: rgb(203, 244, 224); color: #009bc8; background-color: rgb(203, 244, 224); }
+table tr.success td { border-color: rgb(203, 244, 224); color: #009bc8; background-color: rgb(203, 244, 224); }
+table.success td a { color: #009bc8; }
+table tr.success td a { color: #009bc8; }
 table:nth-child(2n+1).success td { background-color: rgb(224, 248, 236); }
 table tr:nth-child(2n+1).success td { background-color: rgb(224, 248, 236); }
 table.success:hover td { background-color: rgb(229, 249, 239); }
@@ -722,12 +724,12 @@ input[type='submit'].btn.btn-mini { }
 .alert pre { background: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; }
 .alert-heading { color: inherit; }
 .alert .close { top: -2px; right: -21px; line-height: 18px; position: relative; }
-.alert-success { border-color: rgb(40, 178, 109); color: rgb(26, 115, 71); background-color: rgb(237, 251, 244); }
-.alert-success * { color: rgb(26, 115, 71); }
+.alert-success { border-color: rgb(40, 178, 109); color: #009bc8; background-color: rgb(237, 251, 244); }
+.alert-success * { color: #009bc8; }
 .alert-success .btn { color: white; }
 .alert-success .btn:hover { color: white; }
-.alert-success .btn-outline { border-color: rgb(40, 178, 109); color: rgb(26, 115, 71); }
-.alert-success .btn-outline:hover { color: rgb(26, 115, 71); }
+.alert-success .btn-outline { border-color: rgb(40, 178, 109); color: #009bc8; }
+.alert-success .btn-outline:hover { color: #009bc8; }
 .alert-danger { border-color: rgb(245, 90, 78); color: rgb(186, 22, 10); background-color: rgb(249, 157, 151); }
 .alert-error { border-color: rgb(245, 90, 78); color: rgb(186, 22, 10); background-color: rgb(249, 157, 151); }
 .alert-danger * { color: rgb(186, 22, 10); }
@@ -817,8 +819,8 @@ input[type='submit'].btn.btn-mini { }
 .nav-pills .dropdown-menu { border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; }
 .nav-tabs .dropdown-toggle .caret { margin-top: 6px; border-top-color: #59c2e6; border-bottom-color: #59c2e6; }
 .nav-pills .dropdown-toggle .caret { margin-top: 6px; border-top-color: #59c2e6; border-bottom-color: #59c2e6; }
-.nav-tabs .dropdown-toggle:hover .caret { border-top-color: rgb(26, 115, 71); border-bottom-color: rgb(26, 115, 71); }
-.nav-pills .dropdown-toggle:hover .caret { border-top-color: rgb(26, 115, 71); border-bottom-color: rgb(26, 115, 71); }
+.nav-tabs .dropdown-toggle:hover .caret { border-top-color: #009bc8; border-bottom-color: #009bc8; }
+.nav-pills .dropdown-toggle:hover .caret { border-top-color: #009bc8; border-bottom-color: #009bc8; }
 .nav-tabs .active .dropdown-toggle .caret { border-top-color: rgb(157, 157, 157); border-bottom-color: rgb(157, 157, 157); }
 .nav-pills .active .dropdown-toggle .caret { border-top-color: rgb(157, 157, 157); border-bottom-color: rgb(157, 157, 157); }
 .nav > .dropdown.active > a:hover { color: rgb(33, 33, 33); cursor: pointer; }
@@ -1055,8 +1057,8 @@ a.badge:hover { color: rgb(255, 255, 255); text-decoration: none; cursor: pointe
 .badge-warning { color: rgb(223, 85, 44); background-color: rgb(246, 210, 199); }
 [href].label-warning { background-color: rgb(243, 192, 177); }
 [href].badge-warning { background-color: rgb(243, 192, 177); }
-.label-success { color: rgb(26, 115, 71); background-color: rgb(162, 234, 198); }
-.badge-success { color: rgb(26, 115, 71); background-color: rgb(162, 234, 198); }
+.label-success { color: #009bc8; background-color: rgb(162, 234, 198); }
+.badge-success { color: #009bc8; background-color: rgb(162, 234, 198); }
 [href].label-success { background-color: rgb(162, 234, 198); }
 [href].badge-success { background-color: rgb(162, 234, 198); }
 .label-info { color: rgb(58, 135, 173); background-color: rgb(176, 211, 228); }
@@ -1687,10 +1689,10 @@ div.page-overlay span.spinner { width: 32px; height: 22px; display: inline-block
 .transparent:hover .iconlinks > div > a:hover { color: rgb(255, 255, 255); background-color: #59c2e6; }
 .gray:hover .iconlinks > div > a:hover { color: rgb(255, 255, 255); background-color: #59c2e6; }
 .alticons:hover a:hover { color: rgb(255, 255, 255); background-color: #59c2e6; }
-.icon:hover .iconlinks > div > a:active { background-color: rgb(26, 115, 71); }
-.transparent:hover .iconlinks > div > a:active { background-color: rgb(26, 115, 71); }
-.gray:hover .iconlinks > div > a:active { background-color: rgb(26, 115, 71); }
-.alticons:hover a:active { background-color: rgb(26, 115, 71); }
+.icon:hover .iconlinks > div > a:active { background-color: #009bc8; }
+.transparent:hover .iconlinks > div > a:active { background-color: #009bc8; }
+.gray:hover .iconlinks > div > a:active { background-color: #009bc8; }
+.alticons:hover a:active { background-color: #009bc8; }
 .icon:hover .favorite { opacity: 1; }
 .icon:hover .infolink { opacity: 1; }
 .icon:hover .premium-label { opacity: 1; }
@@ -2035,7 +2037,7 @@ section.newcomment.reply { margin: 0px; padding: 0px; border: 0px currentColor; 
 .indicator-format-ai { background-position: 0px -48px; }
 table.table .indicator-format { top: -2px; vertical-align: middle; position: relative; }
 .navbar { margin: 0px; z-index: 900; }
-.navbar .navbar-inner { background: rgb(36, 36, 36); padding: 0px 5px; border-radius: 0px; }
+.navbar .navbar-inner { background: #505050; padding: 0px 5px; border-radius: 0px; }
 .navbar .navbar-inner .navbar-item > a { padding: 0px 10px; height: 60px; color: rgb(255, 255, 255); line-height: 60px; display: inline-block; }
 .navbar .navbar-inner .navbar-item > a:active { background: inherit; }
 .navbar .navbar-inner .navbar-item > a:hover { background: rgba(255, 255, 255, 0.1); }
@@ -2111,7 +2113,7 @@ span.payment-method { background-position: 0px; padding: 0px 0px 0px 28px; backg
 td.payment-method { background-position: 18px; padding-left: 48px !important; background-repeat: no-repeat; }
 .payment-method.paypal { background-image: url("https://cdn1.iconfinder.com/static/ea2a1212000b8cdcdce3aa7df9e65057/assets/img/icons/creditcards/paypal.png"); }
 #id_address_country { width: 225px; }
-#view-index .homepage-header { background-position: center 80px; padding: 200px 0px 90px; color: rgb(226, 226, 226); background-image: url("../Images/onchain-white.svg"); background-repeat: no-repeat; background-size: 500px 86px; background-color: rgb(36, 36, 36); }
+#view-index .homepage-header { background-position: center; padding: 200px 0px 90px; color: rgb(226, 226, 226); background-image: url("../Images/BlueMountains.jpg"); background-repeat: no-repeat; background-size: cover; background-color: rgb(36, 36, 36); }
 #view-index .homepage-header .tagline { color: rgb(226, 226, 226); font-size: 18px; }
 #view-index .homepage-header .suggestions { color: rgb(226, 226, 226); font-size: 18px; }
 #view-index .homepage-header .announcement { color: rgb(226, 226, 226); font-size: 18px; }
