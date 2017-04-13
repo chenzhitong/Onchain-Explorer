@@ -28,7 +28,7 @@
                     <img width="80" height="40" alt="Onchain" src="Images/logo_white_small.svg">
                 </a>
                 <form id="searchform" action="/search/">
-                    <input name="q" title="Search" class="query autocomplete" id="inputField" type="text" autocomplete="off" placeholder="block, tx, address" value=""><button class="btn btn-large btn-search" type="submit">
+                    <input name="q" title="Search" class="query autocomplete" id="inputField" type="text" autocomplete="off" placeholder="请输入存证编号" value=""><button class="btn btn-large btn-search" type="submit">
                         <i>&#xe62c;</i>
                     </button>
                 </form>
@@ -47,7 +47,7 @@
                     </ul>
                     <ul class="nav">
                         <li class="navbar-item"><a title="Browse icon sets" href="#">区块</a></li>
-                        <li class="navbar-item"><a title="Designers" href="#">交易</a></li>
+                        <li class="navbar-item"><a title="Designers" href="#">存证</a></li>
                         <li class="dropdown navbar-item what-we-offer">
                             <a title="What we offer" href="#"
                                data-toggle="dropdown">更多应用</a>
@@ -128,16 +128,14 @@
                                 <h3>身份链存证平台</h3>
                             </div>
                             <form id="searchform" action="/search/">
-                                <input name="q" title="Search" class="query autocomplete" id="inputField" autofocus="" autocomplete="off" type="text" placeholder="block, tx, address" value=""><button class="btn btn-large btn-search" type="submit">
+                                <input name="q" title="Search" class="query autocomplete" id="inputField" autofocus="" autocomplete="off" type="text" placeholder="请输入存证编号" value=""><button class="btn btn-large btn-search" type="submit">
                                     <i>&#xe62c;</i>
                                 </button>
                             </form><span class="filter-tags"></span>
                         </div>
                     </div>
                 </section>
-                <p class="tagline hidden-phone">
-                    在 37,871 个区块和 1,593,303 笔交易中搜索
-                </p>
+
                 
                 <br /><br /><br /><br /><br />
             </div>
@@ -153,7 +151,7 @@
                         <div class="col-sm-2 col-xs-3">高度</div>
                         <div class="col-sm-4 col-xs-3">散列值</div>
                         <div class="col-sm-2 col-xs-3">时间</div>
-                        <div class="col-sm-1 col-xs-3">交易数</div>
+                        <div class="col-sm-1 col-xs-3">存证数</div>
                         <div class="col-sm-1 hidden-xs">手续费</div>
                         <div class="col-sm-2 hidden-xs">数据大小</div>
                     </div>
@@ -173,24 +171,23 @@
                 </div>
             </section>
             <section>
-                <h1>最新交易</h1>
+                <h1>最新存证</h1>
                 <hr />
                 <div class="my-table striped">
                     <div class="row title">
-                        <div class="col-sm-2 col-xs-3">类型</div>
-                        <div class="col-sm-5 col-xs-3">散列值</div>
-                        <div class="col-sm-2 col-xs-3">区块高度</div>
-                        <div class="col-sm-3 col-xs-3">时间</div>
+                        <div class="col-sm-4 col-xs-4">存证名称</div>
+                        <div class="col-sm-4 col-xs-4">存证时间</div>
+                        <div class="col-sm-4 col-xs-4">存证编号</div>
                     </div>
-                    <div class="empty">目前没有交易</div>
+                    <div class="empty">目前没有存证</div>
                     <ul id="ul_txs">
                         <li class="row" style="display:none">
-                            <div class="col-sm-2 col-xs-3 tx-type">合约交易</div>
-                            <div class="col-sm-5 col-xs-3">
+                            <div class="col-sm-4 col-xs-4 tx-type">某某某存证</div>
+                            <div class="col-sm-4 col-xs-4 tx-block">2017-04-11 23:50:22</div>
+                            <div class="col-sm-4 col-xs-4">
                                 <a class="tx-hash">ac33ac647a3a88fda8064cea66dc84f5f2aa4fbbbbd0bb2211ca580c391f2940</a>
                             </div>
-                            <div class="col-sm-2 col-xs-3 tx-block">758701</div>
-                            <div class="col-sm-3 col-xs-3 tx-time">2017-04-11 23:50:22</div>
+                            
                         </li>
                     </ul>
                 </div>
@@ -218,10 +215,9 @@
                     var li = liTemp.clone(true);
 
                     li.removeAttr("style");
-                    li.find(".tx-type").text('合约交易');
+                    li.find(".tx-type").text('某某某存证');
                     li.find(".tx-hash").text('ac33ac647a3a88fda8064cea66dc84f5f2aa4fbbbbd0bb2211ca580c391f2940');
-                    li.find(".tx-block").text('758701');
-                    li.find(".tx-time").text('2017-04-11 23:50:22');
+                    li.find(".tx-block").text('2017-04-11 23:50:22');
                     li.addClass("add");
                     ul.append(li);
                 }

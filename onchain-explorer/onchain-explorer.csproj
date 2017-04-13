@@ -69,6 +69,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Content\template.css" />
     <Content Include="Images\bg.png" />
+    <Content Include="Images\BlueMountains.jpg" />
     <Content Include="Images\icon%286%29.png" />
     <Content Include="Images\onchain-logo-gray.svg" />
     <Content Include="Images\onchain-logo.svg" />

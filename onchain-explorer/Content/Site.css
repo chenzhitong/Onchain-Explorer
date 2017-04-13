@@ -21,6 +21,8 @@ i { font-family:iconfont; font-style:normal }
 .my-table > ul > li { border-top:1px solid #ddd }
 .my-table > ul > li > div{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap }
 .my-table .empty { display:none; line-height:3; text-align:center }
+.ellipsis { overflow:hidden; text-overflow:ellipsis; white-space:nowrap }
+#view-index .homepage-header.cz-header { padding:100px 0 30px}
 
 h1 { letter-spacing:.3em }
 .lsgy{color:#333; margin-bottom:50px; letter-spacing:.3em}
@@ -34,3 +36,8 @@ h1 { letter-spacing:.3em }
 .system-state .col-sm-3 { transition:background-color .7s; cursor:default; }
 .system-state .col-sm-3:hover { background-color:rgba(0,0,0,.7);  }
 .system-state .cell-bordered-right { border-right-color:#555 }
+
+.cz-panel { position:relative; margin:50px 0; border:1px solid lightgray; padding:45px 30px 30px; border-radius:10px; background-color:#fff }
+.cz-panel::before{  content:""; position:absolute; top:0; left:0; width:100%; display:block; border-radius:10px 10px 0 0; height:10px; background-color:#009bc8; }
+.cz-panel header { border-bottom:1px solid lightgray; padding-bottom:15px; margin-bottom:15px }
+.cz-panel header span { font-size:18px; letter-spacing:.1em; margin-left:10px }
