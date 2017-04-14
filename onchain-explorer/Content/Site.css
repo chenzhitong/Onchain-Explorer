@@ -50,7 +50,7 @@ h1 { letter-spacing:.3em }
 .cz-chain ul li img { margin:-8px 20px 0; z-index:1; }
 @media only screen and (max-width: 768px) {
     .cz-chain ul li img { margin:-8px 5px 0; }
-    .cz-chain ul { margin:0 -20px }
+    .cz-chain ul { margin:0 -15px }
 }
 .cz-chain ul li .cz-line{position:relative}
 .cz-chain ul li .cz-line::before { content:" "; z-index:0; position:absolute; background-color:gray; left:50%; top:-20px; height:12px; width:1px; }
