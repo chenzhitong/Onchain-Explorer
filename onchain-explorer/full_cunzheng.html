@@ -1,0 +1,274 @@
+﻿<!DOCTYPE HTML>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <title>
+        Onchain Explorer
+    </title>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <!--<link href="Content/bootstrap.css" rel="stylesheet" />-->
+    <link href="Content/bootstrap-simplify.css" rel="stylesheet" />
+    <link href="Content/template.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.1.1.min.js"></script>
+    <script src="Scripts/template.js"></script>
+
+</head>
+<body id="view-index">
+    <a id="top"></a>
+    <div class="navbar navbar-inverse" id="navigation">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <a class="btn btn-navbar" data-toggle="collapse"
+                   data-target=".nav-collapse">
+                    <span class="icon-bar">&nbsp;</span><span class="icon-bar">&nbsp;</span><span class="icon-bar">&nbsp;</span>
+                </a><a title="Go to homepage" class="logo" href="#">
+                    <img width="80" height="40" alt="Onchain" src="Images/logo_white_small.svg">
+                </a>
+                <form id="searchform" action="/search/">
+                    <input name="q" title="Search" class="query autocomplete" id="inputField" type="text" autocomplete="off" placeholder="请输入存证编号" value=""><button class="btn btn-large btn-search" type="submit">
+                        <i>&#xe62c;</i>
+                    </button>
+                </form>
+                <div class="nav-collapse collapse">
+                    <ul class="nav pull-right">
+                        <li class="navbar-item">
+                            <a class="login-link" href="#">
+                                登录
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="signup-link" href="#">
+                                注册
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav">
+                        <li class="navbar-item"><a title="Browse icon sets" href="#">区块</a></li>
+                        <li class="navbar-item"><a title="Designers" href="#">存证</a></li>
+                        <li class="dropdown navbar-item what-we-offer">
+                            <a title="What we offer" href="#"
+                               data-toggle="dropdown">更多应用</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">
+                                        <img width="70" height="70"
+                                             alt="" src="Images/icon.svg">
+                                        <strong>Iconfinder Pro</strong>
+                                        <small>
+                                            Get instant access to the world’s largest collection of icons.
+                                        </small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img width="75"
+                                             height="75" alt="" src="Images/icon(6).png">
+                                        <strong>法链存证</strong>
+                                        <small>
+                                            可信电子签名+区块链存证，实现全业务流程电子存证
+                                        </small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img width="70"
+                                             height="70" alt="" src="Images/icon(2).svg">
+                                        <strong>身份链</strong>
+                                        <small>Host an icon library within your own user interface.</small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img width="70"
+                                             height="70" alt="" src="Images/icon(3).svg">
+                                        <strong>积分平台</strong>
+                                        <small>
+                                            基于区块链的积分平台可实现积分在众多银行、商户、用户间的自由流转。
+                                        </small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img width="70"
+                                             height="70" alt="" src="Images/icon(4).svg">
+                                        <strong>API 参考</strong>
+                                        <small>
+                                            区块链节点可提供丰富API，供外部程序对接区块链使用。
+                                        </small>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img width="70" height="70"
+                                             alt="" src="Images/icon(5).svg">
+                                        <strong>欢迎社区开发者</strong>
+                                        <small>
+                                            Join the fastest growing community of professional illustrators.
+                                        </small>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- .nav-collapse -->
+            </div><!-- .container -->
+        </div><!-- .navbar-inner -->
+    </div><!-- .navbar -->
+    <div class="homepage-header cz-header">
+        <div class="search">
+            <div class="container">
+                <section>
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <div class="lsgy">
+                                <h1>链上贵阳</h1>
+                                <h3>身份链存证平台</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="promotion-bar homepage-announcement hidden-tablet hidden-phone">
+        <div class="container">
+            <section>
+                <h1>完整存证链信息</h1>
+                <div class="cz-chain">
+                    <header class="row text-center">
+                        <img width="50" src="Images/icon(6).png" />
+                        <span>张模范湖边保护环境</span>
+                    </header>
+                    <hr />
+                    <ul>
+                        <li class="row">
+                            <div class="col-sm-5 col-xs-6 text-right">
+                                <div class="float-right cz-line">
+                                    <img width="60" src="Images/write.png" />
+                                </div>
+                                <div class="float-right">
+                                    <div class="date">2017-3-6</div>
+                                    <div>14:00</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 col-xs-6 line-content">
+                                <strong>采集存证</strong>
+                                <div>存证人：王书记</div>
+                                <div class="ellipsis">存证编号：6f7c02312da1702d4228b7e93f2877a773621cb5cc91ceebd636266ae094103d</div>
+                            </div>
+                            <div class="col-sm-2 hidden-xs">
+                                <a class="btn" href="javascript:">查看详情</a>
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="col-sm-5 col-xs-6 text-right">
+                                <div class="float-right cz-line">
+                                    <img width="60" src="Images/check.png" />
+                                </div>
+                                <div class="float-right">
+                                    <div class="date">2017-3-6</div>
+                                    <div>14:00</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 col-xs-6 line-content">
+                                <strong>确认存证</strong>
+                                <div>存证人：王书记</div>
+                                <div class="ellipsis">存证编号：d4228b7e93f2877a7736f7c02312da1e094103d702621cb5cc91ceebd636266a</div>
+                            </div>
+                            <div class="col-sm-2 hidden-xs">
+                                <a class="btn" href="javascript:">查看详情</a>
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="col-sm-5 col-xs-6 text-right">
+                                <div class="float-right cz-line">
+                                    <img width="60" src="Images/confirm.png" />
+                                </div>
+                                <div class="float-right">
+                                    <div class="date">2017-3-6</div>
+                                    <div>14:00</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-5 col-xs-6 line-content">
+                                <strong>审议存证</strong>
+                                <div>存证人：王书记</div>
+                                <div class="ellipsis">存证编号：91ceebd636266ae094103d6f7c02312da1702d4228b7e93f2877a773621cb5cc</div>
+                            </div>
+                            <div class="col-sm-2 hidden-xs">
+                                <a class="btn" href="javascript:">查看详情</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="footer contentpage">
+        <footer class="footer-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="span6">
+                        <p>
+                            <a href="#">
+                                <img height="30" class="footer-logo" alt="Onchain" src="Images/onchain-logo-gray.svg">
+                            </a>
+                        </p>
+                        <p class="copyright">
+                            Made in Onchain · Copyright 2017 · All rights reserved.
+                        </p>
+                        <p class="social-links">
+                            <a href="#" target="_blank">Facebook</a>
+                            ·   <a href="#" target="_blank">Twitter</a>
+                            ·   <a href="#" target="_blank">Dribbble</a>
+                            ·   <a href="#"
+                                   data-action="mailing-list-subscribe" data-mailing-list-id="2">
+                                Sign up to our newsletter
+                            </a>
+                        </p>
+                    </div>
+                    <div class="span3">
+                        <ul>
+                            <li><a href="#">切换至 <span class="label label-pro">测试网</span></a></li>
+                            <li>
+                                <a href="#">
+                                    Become a contributor
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Custom icon design
+                                </a>
+                            </li>
+                            <li><a href="#">API</a></li>
+                            <li><a href="#">Tags</a></li>
+                        </ul>
+                    </div>
+                    <div class="span3">
+                        <ul>
+                            <li><a href="#">Help &amp; support</a></li>
+                            <li><a href="#">About Iconfinder</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li>
+                                <a href="#">
+                                    Terms of service
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Privacy policy
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div><!-- Downloads in billing period: 0 -->
+    <div id="fb-root"></div>
+    
+</body>
+</html>

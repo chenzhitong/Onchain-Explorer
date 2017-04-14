@@ -41,3 +41,18 @@ h1 { letter-spacing:.3em }
 .cz-panel::before{  content:""; position:absolute; top:0; left:0; width:100%; display:block; border-radius:10px 10px 0 0; height:10px; background-color:#009bc8; }
 .cz-panel header { border-bottom:1px solid lightgray; padding-bottom:15px; margin-bottom:15px }
 .cz-panel header span { font-size:18px; letter-spacing:.1em; margin-left:10px }
+.btn-cz-chain { float:right }
+
+.cz-chain { margin:20px 0 50px }
+.cz-chain header { margin-top:30px; font-size:18px; letter-spacing:.1em; margin-left:10px }
+.cz-chain ul { list-style:none; padding-left:0; margin:60px 0 80px }
+.cz-chain ul li { margin:40px 0  }
+.cz-chain ul li img { margin:-8px 20px 0; z-index:1; }
+@media only screen and (max-width: 768px) {
+    .cz-chain ul li img { margin:-8px 5px 0; }
+    .cz-chain ul { margin:0 -20px }
+}
+.cz-chain ul li .cz-line{position:relative}
+.cz-chain ul li .cz-line::before { content:" "; z-index:0; position:absolute; background-color:gray; left:50%; top:-20px; height:12px; width:1px; }
+.cz-chain ul li .cz-line::after { content:" "; z-index:0; position:absolute; background-color:gray; left:50%; bottom:-50px; height:50px; width:1px; }
+.cz-chain ul li .line-content { margin-top:-12px }
