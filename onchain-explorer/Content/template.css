@@ -2085,7 +2085,7 @@ table.table .indicator-format { top: -2px; vertical-align: middle; position: rel
 
 @media all and (max-width:980px) {
     .navbar .container-fluid { padding: 0px; }
-    .navbar .logo { background: url("../Images/onchain-white.svg") no-repeat 0px 0px; width: 174px; height: 29px; display: block; }
+    .navbar .logo { background: url("../Images/lsgy.svg") no-repeat 0px 0px; width: 174px; height: 29px; display: block; }
     .navbar .logo img { display: none; }
     .navbar #searchform { margin-top: 8px; }
     .navbar .btn-navbar { background: 0px; border: 1px solid rgba(255, 255, 255, 0.2); border-image: none; margin-top: 10px; box-shadow: none; }
