@@ -99,10 +99,13 @@
     <Content Include="full_cunzheng.html" />
     <Content Include="Images\bg.png" />
     <Content Include="Images\BlueMountains.jpg" />
+    <Content Include="Images\check.png" />
+    <Content Include="Images\confirm.png" />
     <Content Include="Images\icon%286%29.png" />
     <Content Include="Images\onchain-logo-gray.svg" />
     <Content Include="Images\onchain-logo.svg" />
     <Content Include="Images\onchain-white.svg" />
+    <Content Include="Images\write.png" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
